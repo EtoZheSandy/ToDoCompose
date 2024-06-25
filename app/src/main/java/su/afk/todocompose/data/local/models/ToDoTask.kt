@@ -1,8 +1,8 @@
-package su.afk.todocompose.data.models
+package su.afk.todocompose.data.local.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import su.afk.todocompose.data.models.ToDoTask.Companion.TABLE_TODO
+import su.afk.todocompose.data.local.models.ToDoTask.Companion.TABLE_TODO
 
 @Entity(tableName = TABLE_TODO)
 data class ToDoTask (

@@ -1,4 +1,4 @@
-package su.afk.todocompose.data.models
+package su.afk.todocompose.data.local.models
 
 import androidx.compose.ui.graphics.Color
 import su.afk.todocompose.ui.theme.HighPriorityColor
