@@ -1,10 +1,12 @@
 package su.afk.todocompose.data.repositories
 
+import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.flow.Flow
 import su.afk.todocompose.data.local.ToDoDao
 import su.afk.todocompose.data.local.models.ToDoTask
 import javax.inject.Inject
 
+@ViewModelScoped
 class LocalToDoRepositories @Inject constructor(
     private val toDoDao: ToDoDao
 ) {
